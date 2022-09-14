@@ -9,8 +9,7 @@ ____________ Date: _______2022,09,14_________
 *
 *  Online (Cyclic) URL:  https://cautious-attire-jay.cyclic.app
 *
-********************************************************************************/ 
-
+********************************************************************************/
 
 var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
@@ -18,9 +17,7 @@ var app = express();
 
 // setup a 'route' to listen on the default url path
 app.get("/", (req, res) => {
-
-
-res.send(""Jinhyeok Yoon - 145283206"");
+  res.send("Jinhyeok Yoon - 145283206");
 });
 
 // setup http server to listen on HTTP_PORT
